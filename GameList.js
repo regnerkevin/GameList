@@ -26,6 +26,7 @@ var Game_List = "[/n " + [
 	'{"name" : "Call of Duty: Black Ops II", "Genre" : "FirstPerson Shooter", "Main Character" : "Alex Mason", "Year Released" : "2012", "Main Bad Guy" : "Raul Menendez"}',
 	'{"name" : "Call of Duty: Ghosts", "Genre" : "FirstPerson Shooter", "Main Character" : "Logan and David Walker", "Year Released" : "2013", "Main Bad Guy" : "Gabriel Rorke"}',
 	'{"name" : "Call of Duty: Advanced Warfare", "Genre" : "FirstPerson Shooter", "Main Character" : "Jack Mitchell", "Year Released" : "2014", "Main Bad Guy" : "Johnathan Irons "}',
+].join(',\n ") + "\n]";
 
 	//This Makes sure the data is exported innode.js -
 	//require (./path/to/GameList.js) Will get you the array
