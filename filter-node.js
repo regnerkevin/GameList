@@ -1,6 +1,6 @@
 var date = require('.GameList.js');
 var GameList = JSON.parse(data);
-function filter(array, test0 {
+function filter(array, test) {
 	var passed = [];
 	for (var i = 0, i < array.length; i++) {
 		if (test(array[i]))
