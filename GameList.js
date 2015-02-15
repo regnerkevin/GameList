@@ -1,4 +1,4 @@
-va`r Game_List = "[/n " + [
+var Game_List = "[/n " + [
 	'{"name" : "Final Fantasy", "Genre" : "RolePlaying", "Main Character" : "Light Warriors", "Year Released" : "1987", "Main Bad Guy" : "Chaos"}',
 	'{"name" : "Final Fantasy II", "Genre" : "RolePlaying", "Main Character" : "Firion", Year Released" : "1988", "Main Bad Guy" : "Borghen, The Emperor"}',
 	'{"name" : "Final Fantasy III", "Genre" : "RolePlaying", "Main Character" : "The Four Orphans", "Year Released" : "1990", "Main Bad Guy" : "Cloud of Darkness"}', 
@@ -26,3 +26,8 @@ va`r Game_List = "[/n " + [
 	'{"name" : "Call of Duty: Black Ops II", "Genre" : "FirstPerson Shooter", "Main Character" : "Alex Mason", "Year Released" : "2012", "Main Bad Guy" : "Raul Menendez"}',
 	'{"name" : "Call of Duty: Ghosts", "Genre" : "FirstPerson Shooter", "Main Character" : "Logan and David Walker", "Year Released" : "2013", "Main Bad Guy" : "Gabriel Rorke"}',
 	'{"name" : "Call of Duty: Advanced Warfare", "Genre" : "FirstPerson Shooter", "Main Character" : "Jack Mitchell", "Year Released" : "2014", "Main Bad Guy" : "Johnathan Irons "}',
+
+	//This Makes sure the data is exported innode.js -
+	//require (./path/to/GameList.js) Will get you the array
+	if (typeof module !- "undefined" && module.exports)
+		module.exports = Game_List
