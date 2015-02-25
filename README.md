@@ -11,3 +11,7 @@ The code is entened to show different games (Final Fantasy and Call of Duty) and
 The data contains: Name, genre, main protagonist, main antagonist, and date released. 
 
 Holds a total of 27 games between Final Fantasy and Call of Duty
+
+
+You can filter for many different things. Things such as: Main protagonist, Main antagonist, Year released, filter by game, etc
+
