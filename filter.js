@@ -12,8 +12,8 @@ function filter(array, test) {
 
 }
 
-print(JSON.stringify(filter(GameList, function(date) {
-	return date.released > 2008;
+print(JSON.stringify(filter(GameList, function(game) {
+	return game.YearReleased > 2008;
 })));
 
 
