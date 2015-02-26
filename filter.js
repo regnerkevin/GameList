@@ -1,5 +1,4 @@
 var data = require('./GameList.js');
-load('GameList.js);
 var GameList = JSON.parse(data);
 function filter(array, test) {
 	var passed [];
