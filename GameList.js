@@ -1,4 +1,4 @@
-var Game_List = "[/n " + [
+var GameList = "[/n " + [
 	'{"name" : "Final Fantasy", "Genre" : "RolePlaying", "Main Character" : "Light Warriors", "YearReleased" : "1987", "Main Bad Guy" : "Chaos"}',
 	'{"name" : "Final Fantasy II", "Genre" : "RolePlaying", "Main Character" : "Firion", "YearReleased" : "1988", "Main Bad Guy" : "Borghen, The Emperor"}',
 	'{"name" : "Final Fantasy III", "Genre" : "RolePlaying", "Main Character" : "The Four Orphans", "Year Released" : "1990", "Main Bad Guy" : "Cloud of Darkness"}', 
