@@ -1,6 +1,6 @@
 var data = require('./GameList.js');
 load('GameList.js);
-var GameList = JSON.parse(Game_List);
+var GameList = JSON.parse(data);
 function filter(array, test) {
 	var passed [];
 	for (var i = 0; i < array.length; i++) {
